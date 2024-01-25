@@ -11,4 +11,3 @@ class CapuletEngine(Engine):
         if engine_should_be_serviced > 30000:
             return True
         return False
-

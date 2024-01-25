@@ -1,8 +1,8 @@
 from datetime import date
 
-from components.battery import spindler_battery, nubbin_battery
-from components.engine import capulet_engine, willoughby_engine, sternman_engine
-from components.model import calliope, thovex, palindrome, glissade, rorschach
+from components.batteries import spindler_battery, nubbin_battery
+from components.engines import capulet_engine, willoughby_engine, sternman_engine
+from components.models import calliope, thovex, palindrome, glissade, rorschach
 
 
 class CarFactory:
