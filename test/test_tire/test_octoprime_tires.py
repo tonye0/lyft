@@ -9,7 +9,7 @@ class TestOctoprimeTire(unittest.TestCase):
         self.assertTrue(tire.needs_service())
 
     def test_needs_service_false(self):
-        wear_sensors = [0.87, 0.5, 0.3, 0.2]
+        wear_sensors = [0.87, 0.5, 0.13, 0.2]
         tire = OctoprimeTire(wear_sensors)
         self.assertFalse(tire.needs_service())
 

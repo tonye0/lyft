@@ -7,5 +7,5 @@ def add_years_to_date(original_date, years_to_add):
 
 
 def wear_sensors():
-    sensor = [uniform(0, 1) for n in range(2)] + [0, 1]
-    return sensor
+    sensors = [uniform(0, 1) for n in range(2)] + [0, 1]
+    return sensors

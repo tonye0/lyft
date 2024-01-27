@@ -5,7 +5,7 @@ from components.engines.willoughby_engine import WilloughbyEngine
 
 class TestWilloughbyEngine(unittest.TestCase):
     def test_needs_service_true(self):
-        current_mileage = 60001
+        current_mileage = 60003
         last_service_mileage = 0
         engine = WilloughbyEngine(current_mileage, last_service_mileage)
         self.assertTrue(engine.needs_service())

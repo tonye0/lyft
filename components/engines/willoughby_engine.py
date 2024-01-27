@@ -7,6 +7,4 @@ class WilloughbyEngine(Engine):
 
     def needs_service(self):
         engine_should_be_serviced = self.current_mileage - self.last_service_mileage
-        if engine_should_be_serviced > 60000:
-            return True
-        return False
+        return engine_should_be_serviced > 60000
